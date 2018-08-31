@@ -10,11 +10,11 @@ package com.example.helloworld;
  */
 public class HelloWorld {
     // psfs
-    public static final String HELLO_WORLD = "Hello, World!";
+    private static final String HELLO_WORLD = "Hello, World!";
     /**
      * 1、Using a live template for the main() method
      * psvm
-     * @param args
+     * @param args 主程序入口参数
      */
     public static void main(String[] args) {
         // 2、Using code auto-completion
@@ -28,5 +28,8 @@ public class HelloWorld {
         }
         System.out.println("So each time you execute this run configuration, the artifact will be built automatically.");
         System.out.println("build twice.");
+
+        // create gists
+        throw new RuntimeException("Object o is null.");
     }
 }
